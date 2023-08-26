@@ -1,0 +1,88 @@
+.heading {
+  padding-top: 64px;
+  max-width: 900px;
+  color: #f0f7ff;
+}
+
+.footer_container {
+  padding-top: 64px;
+  width: 100%;
+  height: 130px;
+  display: flex;
+  gap: 5px;
+}
+
+.footer_btns {
+  height: 100%;
+  width: 33.33%;
+  border-radius: 5px;
+  background-color: #ffb2c7;
+  position: relative;
+  outline: none;
+}
+
+.footer_btns span {
+  position: absolute;
+  color: #001A33;
+  font-size: 22px;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+}
+
+.footer_btns div {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 40%;
+  border-radius: 12px 0 0 0;
+  background-color: #1a4d80;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer_btns svg {
+  height: 24px;
+  width: 34px;
+}
+
+/* Add these new styles for responsive design */
+@media (max-width: 768px) {
+  .footer_container {
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+  }
+
+  .footer_btns {
+    width: 100%;
+    height: 300px;
+  }
+
+  .footer_btns span {
+    position: absolute;
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .footer_btns div {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 60%;
+    border-radius: 12px 0 0 0;
+    background-color: #1a4d80;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .footer_btns svg {
+    height: 14px;
+    width: 30px;
+  }
+}

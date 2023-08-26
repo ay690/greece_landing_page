@@ -1,0 +1,55 @@
+.content_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; 
+  background-color: #1a4d80;
+  padding: 0 5%; 
+}
+
+.content_section h1 {
+  line-height: 2; 
+  max-width: 850px;
+  font-size: 96px; 
+  font-weight: 900;
+  margin-bottom: 30px; 
+}
+
+.content_section p {
+  max-width: 600px;
+  font-size: 16px;
+  /* background-color: #1a4d80; */
+  color: #f0f7ff;
+  font-weight: 500;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+/*********************** Resposive part *********************************/
+@media (max-width: 768px) {
+  .content_section {
+    padding-top: 75px;
+  }
+  .content_section h1 {
+    line-height: 2.5;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .content_section p {
+    max-width: 600px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 330px) {
+  .content_section h1 {
+    line-height: 2.5;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+}

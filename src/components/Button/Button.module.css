@@ -1,0 +1,21 @@
+.btn {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+    font-size: 20px;
+    background-color: #FFB2C7;
+    min-width: 250px;
+    color: #001A33;
+    border: #FFB2C7;
+    transition: 0.4s background ease-in;
+}
+
+.btn:hover {
+     cursor: pointer;
+    transition: 0.4s background ease-in;
+    background-color: #fc4878f8;
+
+}
